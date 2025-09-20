@@ -1,0 +1,36 @@
+/* the style(configure if you know what ur doing!) */
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.question {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  background: #2980b9;
+}
+
+#score {
+  font-size: 20px;
+  margin-top: 30px;
+}
